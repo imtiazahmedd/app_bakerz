@@ -1,34 +1,34 @@
 
-//  var cities = {  
-//     karachi : [['2015-12-01', 500], ['2017-12-01', 800],['2015-12-01', 2300],],
-//     lahore : [['2016-12-01', 1000], ['2016-12-01', 1000], ['2016-12-01', 1000]],
-//     multan : [['2017-12-01', 200], ['2017-12-01', 200], ['2017-12-01', 200]]
-//  }
+ var cities = {  
+    karachi : [['2015-12-01', 500], ['2017-12-01', 800],['2015-12-01', 2300],],
+    lahore : [['2016-12-01', 1000], ['2016-12-01', 1000], ['2016-12-01', 1000]],
+    multan : [['2017-12-01', 200], ['2017-12-01', 200], ['2017-12-01', 200]]
+ }
  
-// var arrKey = [];
-// arrKey.push('years');
-// for(var key in cities){
-//      var x = key;
-//     arrKey.push(x);
-//  }
+var arrKey = [];
+arrKey.push('years');
+for(var key in cities){
+     var x = key;
+    arrKey.push(x);
+ }
 
-// var arrValue = [];
-// var i =0;
-// for(var key in cities){
+var arrValue = [];
+var i =0;
+for(var key in cities){
     
-//     cities[key].forEach(function(values){
-//      if(i == 0){
-//         arrValue.push(values); 
-//         i++;      
-//      }else if(typeof values == 'number'){
-//         arrValue.push(values);    
-//      }
-//     });
-// }
+    cities[key].forEach(function(values){
+     if(i == 0){
+        arrValue.push(values); 
+        i++;      
+     }else if(typeof values == 'number'){
+        arrValue.push(values);    
+     }
+    });
+}
 
-// var mainArray = [arrKey, arrValue];
-// console.table(mainArray);
-//  document.write(arrKey + "<br>" + arrValue);
+var mainArray = [arrKey, arrValue];
+console.table(mainArray);
+ document.write(arrKey + "<br>" + arrValue);
 
 
 

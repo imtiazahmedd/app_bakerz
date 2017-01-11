@@ -80,12 +80,39 @@
 // console.log(map.get('first'), map.get('second'));
 
 
+// ===================getting array form an array  using map object==============================
 
-// let map = new Map([
+
+// let mymap = new Map([
 //     ['one', 1],['two', 2], ['three', 3]
 // ]);
 
-// console.log(map.get[]);
+// for(let key of mymap.entries()){
+    
+// console.log(key);
+// }
+
+
+// =======================getting keys form an nested array using map object =========================
+
+
+// let mymap =  new Map ([
+//     ['one', 1], ['two', 2], ['three', 3]
+// ]);
+// for(let key of mymap.keys()){
+//     console.log(key);
+// }
+
+
+//=========================getting values form an nessted array using map object ========================
+
+// let mymap = new Map([
+//     ['one', 1], ['two', 2],['three' , 3]
+// ]);
+// for(let value of mymap.values()){
+//     console.log(value);
+// }
+
 
 
 
@@ -111,5 +138,69 @@
 
 
 
+
+// ==============================================let VS var ===================================
+
+
+
+
+// =============let ===============
+
+// if(true){
+//     let name = 'imtiaz';
+// }
+// console.log(name);
+
+
+
+// for(let i = 0 ; i <= 10; i++){
+//     console.log(i);
+// }
+// console.log(i);
+
+
+
+// ============var =================
+
+// if(true){
+//     let name = 'imtiaz';
+// }
+// console.log(name);
+
+
+// for(var i = 0 ; i <= 10; i++){
+//     console.log(i);
+// }
+// console.log(i);
+
+
+
+// ===============================const ===============================
+
+
+// const name = 'imtiaz';
+// console.log(name);
+// name = 'ahmed';
+// console.log(name);
+
+
+//=================================backtic  ========================================
+// using for multi line
+
+// let name = `imtiaz
+// ahmed`;
+
+// console.log(name);
+
+
+
+// var firstname = 'imtiaz';
+// var lastname = 'ahmed';
+// console.log(`my name is  ${firstname} ${lastname}`);
+
+
+
+
+// =========================Destrunction Assignment ===============================
 
 
