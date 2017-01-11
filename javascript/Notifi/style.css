@@ -1,0 +1,86 @@
+.header{
+    height: 50px;
+    width: 100%;    
+}
+
+.heading{
+    color: blue;
+  
+}
+
+.inputfield{
+    width: 45%;
+    height: 30px;
+    border:  2px solid black;
+    
+}
+.btn{
+    width: 40%;
+    height: 40px;
+    background-color: red;   
+    margin-top: 2%;
+}
+.maindiv{
+    /*border: 2px solid red;*/
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.icon{
+    float: right;
+    
+}
+#inputid{
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom: 3px solid red;
+}
+.iconspan{
+     position: absolute;
+     margin-top: 0.3%;
+}
+img{
+    vertical-align: middle;
+}
+.democlass{
+    color: darkblue;
+}
+span{
+    padding-left: 2em;
+  color: red;
+  font-size: 16px;
+  font-weight: bold;
+
+}
+.notify{
+  position: absolute;
+  height: 300px;
+  width: 15%;
+  margin-left: 83%;
+  border: 2px solid black;
+  display: none;
+  overflow: scroll;
+  font-weight: bold;
+  font-style: italic;
+  color: green;
+}
+.notificationdiv{
+  height: 15px;
+  width: 1.5%;
+  background-color: red;
+  border-radius: 10px;
+    position: absolute;
+  top: 0;
+  right: 19px;
+  visibility: hidden;  
+}
+#show{
+    visibility: visible;
+}
+.delete{
+    visibility: hidden;
+}
+#deleteid{
+    visibility: visible;
+}

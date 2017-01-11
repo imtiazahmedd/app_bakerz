@@ -1,0 +1,12 @@
+var a = "i m very good boy";
+undefined
+a.match
+match() { [native code] }
+a.match("good")
+
+["good"]
+
+
+
+
+javascript "match" & reject;

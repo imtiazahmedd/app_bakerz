@@ -1,0 +1,1 @@
+str.filter(function(str){ if( str.indexOf(k)==-1 ) return str;});

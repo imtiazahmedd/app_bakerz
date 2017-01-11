@@ -1,0 +1,34 @@
+body{
+    background-color: lightblue;
+}
+.textbox{
+    width: 450px;
+    height: 25px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.txt{
+    font-size: 30px;
+    margin-left: 280px;
+}
+.one{
+    margin-left:250px;
+    margin-top:20px;
+    width:700px;
+}
+.btnn{
+    width:650px;
+    height:50px;
+    background-color: red;
+    border-radius:10px;
+    margin-left:270px;
+    margin-top:30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.main_heading{
+  margin-left: 550px;
+  font-size: 50px;
+  color: darkblue;
+  font-weight: bold;
+}

@@ -1,0 +1,34 @@
+print object on page :
+//    for(var key in obj){
+//        document.write(obj[key]+"<br>");
+//    }
+
+****************  form validation code  ********************************
+<input type="text" size="40" onkeypress="return myFunction()" />
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+if (event.keyCode < 48 || event.keyCode > 57){
+document.getElementById("demo").innerHTML = "something wrong";
+return false;
+}
+else
+    var x = event.keyCode;
+    document.getElementById("demo").innerHTML = "The Unicode value is: " + x;
+}
+</script>
+ 
+
+
+
+*************************print multi object in page**********************
+       var arr = [{name1 : "first name"}, {name2 : "second name"}, {name3 : "third name"}, {name4 : "fourth name"}];
+    for(var i = 0; i < arr.length; i++){
+        for(var key in arr[i]){
+            var x = key;
+            var y = arr[i][key];
+          document.getElementById("one").innerHTML += x + y + "<br>";
+        }
+    }

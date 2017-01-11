@@ -1,0 +1,6 @@
+Es6
+
+1:- Arrow functions.
+2:- MAP object
+3:- Let VS Var 
+4:- Destucting Assignment

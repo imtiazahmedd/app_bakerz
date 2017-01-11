@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <h3 class="second">Enter 1st no</h3>
+    <input id="input1" type="text" placeholder="1st no" size="15" name="btn1" >
+    
+    <select name="operator" class="selecter">
+        
+        <option>+</option>
+        <option>-</option>
+        <option>*</option>
+        <option>/</option>
+        
+    </select>
+     <h3 class="second">Enter 2st no</h3>
+    <input id="input2" type="text" placeholder="2st no" size="15" name="btn2" >
+    <br><br>
+    <button class="submit" name="btn4" onclick=addnum(btn1.value,btn2.value)>
+        Submit
+    </button>
+    <h3>Result</h3>
+     <input id="result" type="text" placeholder="result" size="20" name="btn3" >
+    
+   
+    
+    
+    <script src="app.js">  </script>
+</body>
+</html>

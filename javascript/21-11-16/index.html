@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1 class="main_heading">To-do list</h1>
+
+<form name="myform" onsubmit="data()">
+
+
+    <span class="txt">Name</span> <input  type="textbox" name="Name" size="20" id="id1" class="textbox" autofocus onFocus="this.style.backgroundColor='lightblue';"
+onBlur="this.style.backgroundColor='white';">
+    <br><br>
+    <span class="txt">E mail</span> <input type="email" name="Email" size="20" id="id2" class="textbox"onFocus="this.style.backgroundColor='lightblue';"
+onBlur="this.style.backgroundColor='white';">
+    <br><br>
+    <span class="txt">Mobile</span> <input type="text" name="Mobile" size="20" id="id3" class="textbox"onFocus="this.style.backgroundColor='lightblue';"
+onBlur="this.style.backgroundColor='white';">
+    <br><br>
+
+    <button class="btnn" type="button" value="Save" size="20" id="id4" onclick="data()">save</button>
+
+</form>
+<br><br>
+<table border="2px solid" id="register" class ="one">
+    <thead>
+    <tr>
+        <th id="id1"><h1>Name</h1></th>
+        <th id="id2"><h1>Email</h1></th>
+        <th id="id3"><h1>Phone</h1></th>
+        <th id="id5"><h1> Edit </h1></th>
+        <th id="id6"><h1>Delete</h1></th>
+
+
+    </tr>
+    </thead>
+    <tbody>
+
+
+    </tbody>
+</table>
+<script src="app.js"></script>
+</body>
+</html>
