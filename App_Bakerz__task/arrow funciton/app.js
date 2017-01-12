@@ -204,3 +204,78 @@
 // =========================Destrunction Assignment ===============================
 
 
+// let array =["125",23112]["124",12312]["123",12323];
+// let [...record]=array;
+// console.log(record);
+
+
+
+// let array =[2, 4, 5, 2, 9, 23];
+// let [...record]=array;
+// console.log(record);
+
+
+
+// var animal = new Array('one', 'two', 'three');
+// var one = animal[0];
+// var two = animal[1];
+// var three = animal[2];
+// console.log(one, two, three);
+
+
+
+// let person = [
+//     {
+//         name: "imtiaz",
+//         gender: "male",
+//         num: 12312312321
+//     },
+//     {
+//         name: "ahmed",
+//         gender: "male",
+//         num: 9882312321
+//     }
+// ]
+
+// let [rec,]= person;
+// console.log(rec);
+
+// let person = [{
+//     name : 'imtiaz',
+//     age : 22
+// },{
+//     name : 'ahmed',
+//     age : 20
+// }
+// ,{
+//     name : 'saqib',
+//     age : 30
+// }
+// ,{
+//     name : 'arqam',
+//     age : 32
+// }
+// ]
+
+// let [...second] = person;
+// console.log(second);
+
+// let person = [{
+//     name : 'imtiaz',
+//     age : 22
+// },{
+//     name : 'ahmed',
+//     age : 20
+// }
+// ,{
+//     name : 'saqib',
+//     age : 30
+// }
+// ,{
+//     name : 'arqam',
+//     age : 32
+// }
+// ]
+
+// let [,,second] = person;
+// console.log(second);
